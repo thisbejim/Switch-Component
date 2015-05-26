@@ -6,11 +6,11 @@ var styles = {
   off: {
     backgroundColor: '#FF5722',
     border: 0,
-    width: '40px',
-    height: '40px',
+    width: '20px',
+    height: '20px',
     borderRadius: '50%',
     color: 'white',
-    transitionDuration: '.4s',
+    transitionDuration: '.2s',
     transitionTimingFunction: 'ease-out',
     transform: 'translate(0px,0px)',
     ':hover': {
@@ -23,14 +23,13 @@ var styles = {
   on: {
     backgroundColor: '#4CAF50',
     border: 0,
-     width: '40px',
-    height: '40px',
+     width: '20px',
+    height: '20px',
     borderRadius: '50%',
     color: 'white',
-    padding: '1.5em', 
-    transitionDuration: '.4s',
+    transitionDuration: '.2s',
     transitionTimingFunction: 'ease-out',
-    transform: 'translate(40px,0px)',
+    transform: 'translate(30px,0px)',
     ':hover': {
       backgroundColor: '#66BB6A'
     },
@@ -43,13 +42,11 @@ var styles = {
 var backdrop = {
   basic:{
   backgroundColor: '#E0E0E0',
-  width: '80px',
-  height: '40px',
-  padding: '2px',
+  width: '50px',
+  height: '20px',
   borderRadius: '25px',
   boxShadow: 'inset 0px 0px 20px rgba(0,0,0,0.2)'
   }
-
 }
 
 // Component
